@@ -1,0 +1,45 @@
+```css
+.gantt_task_line.critical-task {
+  background-color: #fee2e2;
+  border-color: #ef4444;
+}
+
+.gantt_task_line.completed-task {
+  background-color: #d1fae5;
+  border-color: #10b981;
+}
+
+.gantt_task_line.in-progress-task {
+  background-color: #dbeafe;
+  border-color: #3b82f6;
+}
+
+.gantt_task_line.delayed-task {
+  background-color: #fee2e2;
+  border-color: #ef4444;
+}
+
+.gantt_task_progress {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* RTL Specific Styles */
+.gantt_container {
+  direction: rtl;
+}
+
+.gantt_grid_scale,
+.gantt_task_scale {
+  direction: rtl;
+  text-align: right;
+}
+
+.gantt_grid_data {
+  direction: rtl;
+  text-align: right;
+}
+
+.gantt_cell {
+  text-align: right;
+}
+```
